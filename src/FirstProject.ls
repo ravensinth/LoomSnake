@@ -13,7 +13,7 @@ package
 
             var i:int;
             for (i = 0; i < 4; i++){
-                private var Segment:Vector<int>(2)[5, 5+i];
+                private var Segment:Vector<int>([5, 5+i]);
 
                 SegmentList.push(Segment);
             }
